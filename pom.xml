@@ -87,6 +87,9 @@
       <plugin>
         <groupId>io.micronaut.build</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
+        <configuration>
+          <baseImageRun>ubuntu:latest</baseImageRun>
+        </configuration>
       </plugin>
       
       <plugin>
